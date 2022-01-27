@@ -1,0 +1,72 @@
+body, html{
+  width: 100%;
+  height: 100%;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #303030;
+  width: 100%;
+  height: 100%;
+}
+
+.plot {
+  width: 80vw;
+}
+
+.settings{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  width: 60vw;
+  top: 10px;
+  right:10px;
+}
+
+.select-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title{
+  color: #ddd;
+  font-size: 4vw;
+}
+
+.subtitle{
+  color: #ddd;
+  font-size: 2.5vw;
+}
+
+.legend{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60vw;
+  font-size: 2vw;
+}
+
+.legend-item{
+  display: flex;
+  flex-direction: row;
+  color: #eee;
+  align-items: center;
+  width: 15vw;
+}
+
+.legend-rect{
+  background-color: #000;
+  width: 4vw;
+}
+
